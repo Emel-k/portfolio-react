@@ -49,6 +49,14 @@ function Home(props) {
                     </ul>
                 </div>
             </div>
+
+            <section className="container-skills">
+                <h3>Mes compétences</h3>
+                <p>Les langages que je connais</p>
+                <div className="card-skill">
+
+                </div>
+            </section>
         </main>
 
         </>
