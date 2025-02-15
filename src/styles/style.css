@@ -37,7 +37,6 @@ li{
 
 .head-page{
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,4 +71,109 @@ li{
 }
 
 
-/* https://mushfiq.xyz/*/
+
+
+ .texte-animer {
+     text-align: center;
+     font-size: 2rem;
+     opacity: 0;
+     animation: fadeIn 3s ease-in forwards;
+ }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* ----------------------Card skill--------------- */
+
+.container-skills{
+
+    height: 80vh;
+}
+
+.title-card{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.language{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+}
+
+.skill{
+    display: flex;
+    gap: 50px;
+}
+
+.card-skill{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 350px;
+    height: 150px;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 10px darkgrey ;
+    border-radius: 50px;
+}
+
+.name-skill{
+    margin: 5px;
+}
+
+/* -----------------projet --------------------*/
+
+.container-projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projet-card{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 10px darkgrey ;
+    border-radius: 50px;
+}
+
+
+/* ---------------------footer -------------- */
+
+.footer-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.ul-footer{
+    display: flex;
+    gap: 50px;
+
+}
+
+.li-footer{
+    text-decoration: none;
+    color: black;
+}
