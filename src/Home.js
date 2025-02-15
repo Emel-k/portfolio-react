@@ -108,21 +108,21 @@ function Home(props) {
             </section>
 
             <section >
-                <h3>Mes Projets</h3>
+                <h3 className='projet'>Mes Projets</h3>
 
                 <div className="container-projet">
 
                     <div className="card-projet">
                         <div className="projet-card">
-                            <FontAwesomeIcon icon={faHtml5} size="2x" color="#E44D26" />
-                            <p className="name-skill">HTML</p>
+                            <img src="" alt=""/>
+                            <p className="projet">Caf'thé</p>
                         </div>
                     </div>
 
                     <div className="card-projet">
                         <div className="projet-card">
-                            <FontAwesomeIcon icon={faHtml5} size="2x" color="#E44D26" />
-                            <p className="name-skill">HTML</p>
+                            <img />
+                            <p className="projet">Counter Bulle</p>
                         </div>
                     </div>
                 </div>

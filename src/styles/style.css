@@ -127,6 +127,11 @@ li{
     font-size: 1.2rem;
     box-shadow: 5px 5px 10px darkgrey ;
     border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.card-skill:hover{
+    transform: rotate(15deg);
 }
 
 .name-skill{
@@ -139,6 +144,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50vh;
 }
 
 
@@ -153,6 +159,16 @@ li{
     font-size: 1.2rem;
     box-shadow: 5px 5px 10px darkgrey ;
     border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.projet-card:hover{
+    transform: rotate(15deg);
+}
+
+.projet{
+    margin: 10px;
+    font-size: 1.5rem;
 }
 
 
@@ -164,7 +180,7 @@ li{
     align-items: center;
     height: 200px;
     width: 100%;
-    border: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .ul-footer{
