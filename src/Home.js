@@ -19,12 +19,12 @@ function Home(props) {
 
         <nav className="nav-bar">
             <div>
-                <Link to={"/"} className="logo-nav">LOGO</Link>
+                <Link to={"/"} className="logo-nav">E.K</Link>
             </div>
             <ul className="nav-li">
-                <li> <Link to={Home}  className="nav-links" >HOME</Link> </li>
-                <li> <Link  className="nav-links" >SKILLS</Link> </li>
-                <li> <Link   className="nav-links" >PROJETS</Link> </li>
+                <li> <a href="#" className="nav-links" >HOME</a> </li>
+                <li> <a href="#skill" className="nav-links" >SKILLS</a> </li>
+                <li> <a href="#project" className="nav-links" >PROJETS</a> </li>
             </ul>
         </nav>
 
@@ -57,7 +57,7 @@ function Home(props) {
                 </div>
             </div>
 
-            <section className="container-skills">
+            <section id= "skill" className="container-skills">
                 <h3 className="title-card">Mes compétences</h3>
                 <p className="language">Les langages que je connais : </p>
                 <div className="container-card">
@@ -107,9 +107,9 @@ function Home(props) {
                 </div>
             </section>
 
-            <section >
+            <section id="project" >
                 <h3 className='projet'>Mes Projets</h3>
-
+                <p className="language">Les projects que j'ai fait : </p>
                 <div className="container-projet">
 
                     <div className="card-projet">
