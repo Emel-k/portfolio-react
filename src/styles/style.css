@@ -17,6 +17,11 @@
     font-family: Alef;
     font-weight: bold;
     margin-bottom: 100px;
+
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255, 0.5); /* Plus transparent */
+
 }
 
 .nav-li{
